@@ -1,0 +1,53 @@
+table{
+    width: 50%;
+}
+td{
+    border: thin solid;
+}
+img{
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    height: 35%
+}
+button{
+    background: deepskyblue;
+    border: thin solid #ffffff;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 5px #999;
+}
+button:active{
+    transform: translateY(3px);
+    box-shadow: 0 2px #999;
+}
+#pages{
+    position: absolute ;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    margin: 0 auto;
+}
+#table{
+    position: relative;
+}
+.name{
+    font-weight: bold;
+    font-family: "Times New Roman";
+    font-size: 14pt;
+}
+.surname{
+     font-weight: bold;
+     font-family: "Times New Roman";
+     font-size: 12pt;
+}
+.desc{
+    text-indent: 20px;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 10pt;
+}
